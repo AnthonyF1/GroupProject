@@ -2,7 +2,7 @@
 /*   Creator: Anthony Forte & Daniel Diaz
 	 Class: CIS-131-W01-18FA
 	 Project: Team Case Study
-	 Date: 8/22/2018
+	 Date: 9/9/2018
 */
 
 /* html/body */
@@ -173,4 +173,15 @@ footer {
 	margin-bottom: 5px;
 	border-radius: 15px;
 	box-shadow: 0px 0px 5px #000000;
+}
+/* Reviews */
+
+#realm {
+  width: 85%;
+}
+.revTitles{
+  text-align: center;  
+}
+#realmR{
+  text-indent: 8%;
 }
