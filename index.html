@@ -34,12 +34,28 @@
 		<p><img src="images/gaming.jpeg" alt="Welcome" class="center"></p>
 		
         <p class="txtaligncenter">This website will be dedicated to everything gaming! We will be providing our guests with the most recent News and Reviews in the gaming world. We will cover PC, Console, and Mobile gaming, along with possible secret tips and tricks on becoming a better player. Please use the navigation above to get started!</p>
-      </article>
+      <br>
+	  <hr>
+	  <br>
+	  	<form>
+		   <label for="emailinput">Want to signup for our upcoming monthly newletter? </label>
+		   <input type="text" id="emailinput" name="email" placeholder="Enter your email address here!">
+           <input type="button" id="submit" value="Submit" />
+	    </form>
+	  </article>
     </main>
 
     <footer>
       <p id="footertxt">©Copyright 2018 by Anthony Forte & Daniel Diaz. All rights reserved.</p>
     </footer>
-
+	
+	<script>
+    function submitEmail() {
+	   var email = document.getElementById("emailinput");
+	   (email.value) ?
+	       alert("Thank you for subscribing!") : alert("Please fill in the email field!");
+	}
+	document.getElementById("submit").addEventListener("click", submitEmail, false);
+   </script>
   </body>
 </html>
