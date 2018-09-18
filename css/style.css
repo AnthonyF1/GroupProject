@@ -58,6 +58,10 @@ p, li {
   line-height: 1.5;
 }
 
+#twitch {
+  color: darkorchid;
+}
+
 a:link {
     color: white;
 }
