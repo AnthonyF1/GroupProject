@@ -19,6 +19,16 @@
 	  <p><img src="images/banner.jpg" alt="Welcome" id="titleimage"></p>
     </header>
 
+	<script>
+		var arrayImages = ["images/wow.jpg", "images/ffxiv.jpg"]
+		
+		function displayImages () {
+			for (i = 0; i < arrayImages.length; i++) {
+			document.write("<li><img src='" + arrayImages[i] + "'></li>");
+			}
+		}
+	</script>
+	
     <nav>
       <ul>
         <li><a href="index.html">Return Home</a></li>
@@ -29,8 +39,29 @@
 
     <main>
       <article>
-        <h2>Gaming News and Updates</h2>
+		<h2>Gaming News and Updates</h2>
 		<hr>	
+		<h2 class="txtaligncenter">World of Warcraft vs. Final Fantasty XIV</h2>
+		<p class="txtaligncenter">Post By: Anthony Forte - <span class="pinktxt">9/24/2018</span></p>
+		
+		<div id="imgContainer">
+			<ul>
+				<script>displayImages();</script>  
+			</ul>
+		</div>
+		
+		<h3>World of Warcraft</h3>
+		<p>After being released in 2004, World of Warcraft has consistently managed to maintain the largest active subscriber base of any MMO on the market. The game's initial fanbase was attracted due to the game being the latest installment of the highly popular Warcraft franchise, but its ongoing longevity showcases that there is a lot to love in World of Warcraft.</p>
+		
+		<h3>Final Fantasy XIV</h3>
+		<p>After a particularly underwhelming launch of the original Final Fantasy XIV 1.0, the game was remade and re-released in 2013 as Final Fantasy XIV: A Realm Reborn. Since then, the game has enjoyed constant critical success as well as two major expansions.</p>
+		
+		<h3>Closing Thoughts</h3>
+		<p>Personally, I have spent many hours playing both of these games. If you have the time and money to spare I would highly recommend trying them both. If not, I hope that my advice helps you to choose an MMORPG that will provide you with innumerable hours of fun and happy memories.</p>
+		
+		<br>
+        <hr>
+		<br>
 		<h2>Fortnite update: Patch notes for PS4, Xbox One performance lag FIX</h2>
 		
 		<p class="txtaligncenter">Post By: Anthony Forte - <span class="pinktxt">9/8/2018</span></p>
